@@ -20,3 +20,13 @@ autocmd FileType python set omnifunc=pythoncomplete
 let g:syntastic_enable_signs=1
 set spell
 set spelllang=de
+set modeline
+augroup yaml
+    au!
+    autocmd FileType yaml set spelllang=en
+    autocmd BufNewFile,BufRead *.playbook set filetype=yaml
+augroup END
+augroup markdown
+    au!
+    autocmd FileType markdown set spelllang=en
+augroup END
