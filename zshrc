@@ -72,3 +72,7 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+export VDPAU_DRIVER=va_gl
+alias kubemaster01_unseal="gpg -d ~/dokumente/secret/passwords/scripts/kubemaster01_unseal_vault.sh.gpg | bash"
+alias kubemaster01_login="eval \`gpg -d ~/dokumente/secret/passwords/scripts/kubemaster01_login.sh.gpg\`"
+
