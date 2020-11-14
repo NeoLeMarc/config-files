@@ -34,7 +34,7 @@ plugins=(git ant compleat debian history-substring-search python vagrant lol ssh
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/opt/thunderbird:/home/marcel/bin:/home/marcel/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/opt/jdk/bin
+export PATH=/opt/thunderbird:/home/marcel/bin:/home/marcel/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/opt/jdk/bin:/opt/arduino/current   
 namedir () { export $1=$PWD ;  : ~$1 }
 DIRSTACKSIZE=15
 setopt autopushd pushdminus pushdsilent pushdtohome
