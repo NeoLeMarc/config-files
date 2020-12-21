@@ -8,6 +8,7 @@ endif
 
 call plug#begin('~/.vim/plugged')
 Plug  'stevearc/vim-arduino'
+Plug 'Valloric/YouCompleteMe'
 call plug#end()
 
 
