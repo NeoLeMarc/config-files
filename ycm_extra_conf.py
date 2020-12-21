@@ -26,7 +26,8 @@ SOURCE_EXTENSIONS = [
         '.cc',
         '.c',
         '.m',
-        '.mm'
+        '.mm',
+        '.ino'
         ]
 
 SOURCE_DIRECTORIES = [

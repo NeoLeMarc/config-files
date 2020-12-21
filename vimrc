@@ -34,7 +34,7 @@ set background=dark
 autocmd FileType python set omnifunc=pythoncomplete
 let g:syntastic_enable_signs=1
 set spell
-set spelllang=de
+set spelllang=en
 set modeline
 augroup yaml
     au!
@@ -45,3 +45,11 @@ augroup markdown
     au!
     autocmd FileType markdown set spelllang=en
 augroup END
+augroup cpp 
+    au!
+    autocmd FileType cpp set spelllang=en
+    autocmd BufNewFile,BufRead *.ino set filetype=cpp
+    autocmd BufNewFile,BufRead *.h set filetype=cpp
+augroup END
+let g:ycm_global_ycm_extra_conf = "~/.vim/.ycm_extra_conf.py"
+filetype on
