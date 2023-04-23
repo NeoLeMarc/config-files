@@ -53,3 +53,6 @@ augroup cpp
 augroup END
 let g:ycm_global_ycm_extra_conf = "~/.vim/.ycm_extra_conf.py"
 filetype on
+
+"Disable mouse support - which is just annoying"
+set mouse=
