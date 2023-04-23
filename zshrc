@@ -29,7 +29,7 @@ COMPLETION_WAITING_DOTS="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git ant compleat debian history-substring-search python vagrant lol ssh-agent)
+plugins=(git ant debian history-substring-search python lol ssh-agent)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -42,9 +42,12 @@ alias dh='dirs -v'
 export HISTFILE=$HOME/.zshhistory
 export HISTSIZE=5000
 export SAVEHIST=1000
-autoload -U compinit
+autoload -U compinit bashcompinit
 setopt APPEND_HISTORY EXTENDED_HISTORY HIST_EXPIRE_DUPS_FIRST SHARE_HISTORY HIST_IGNORE_DUPS HIST_IGNORE_SPACE HIST_IGNORE_ALL_DUPS autocd extendedglob histignorealldups histignorespace incappendhistory interactive mailwarning monitor sharehistory zle
 compinit
+bashcompinit
+source ~/.bash_completion.d/compleat_setup
+
 source ~/.profile
 #export JAVA_HOME=/opt/jdk/
 
