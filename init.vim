@@ -6,7 +6,7 @@
 " cd /Users/marcel/.local/share/nvim/site/autoload
 " curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 " PlugInstall
-" git clone https://github.com/github/copilot.vim.git ~/.vim/pack/github/start/copilot.vim
+" git clone https://github.com/github/copilot.vim.git  ~/.config/nvim/pack/github/start/copilot.vim
 set nocompatible
 set showmatch
 set ignorecase
