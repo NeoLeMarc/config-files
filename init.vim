@@ -20,7 +20,7 @@ set shiftwidth=2
 set autoindent
 set number
 set wildmode=longest,list
-#set cc=80
+" set cc=80
 filetype plugin indent on
 syntax on
 " set mouse=a
