@@ -4,9 +4,9 @@
 " pip3 install neovim
 " npm install neovim
 " cd /Users/marcel/.local/share/nvim/site/autoload
-" curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
-          https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+" curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 " PlugInstall
+" git clone https://github.com/github/copilot.vim.git ~/.vim/pack/github/start/copilot.vim
 set nocompatible
 set showmatch
 set ignorecase
@@ -20,7 +20,7 @@ set shiftwidth=2
 set autoindent
 set number
 set wildmode=longest,list
-set cc=80
+#set cc=80
 filetype plugin indent on
 syntax on
 " set mouse=a
