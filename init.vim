@@ -1,25 +1,34 @@
 " https://builtin.com/software-engineering-perspectives/neovim-configuration
+" #:git config --global --add url."git@github.com:".insteadOf
+" "https://github.com"
+" pip3 install neovim
+" npm install neovim
+" cd /Users/marcel/.local/share/nvim/site/autoload
+" curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+          https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+" PlugInstall
 set nocompatible
 set showmatch
 set ignorecase
-set mouse=v
+" set mouse=v
 set hlsearch
 set incsearch
-set tabstop=5
-set softtabstop=4
+set tabstop=2
+set softtabstop=2
 set expandtab
-set shiftwidth=4
+set shiftwidth=2
 set autoindent
 set number
 set wildmode=longest,list
 set cc=80
 filetype plugin indent on
 syntax on
-set mouse=a
+" set mouse=a
 set clipboard=unnamedplus
 filetype plugin on
 set ttyfast
-set spell=en
+set spell
+set spelllang=en
 " set noswapfile - maybe
 " set backupdir=~/.cache/vim
 
