@@ -57,3 +57,5 @@ if has("autocmd")
      \| exe "normal! g'\"" | endif
 endif
 
+" Load init.lua
+lua require('init')
