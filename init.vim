@@ -57,5 +57,8 @@ if has("autocmd")
      \| exe "normal! g'\"" | endif
 endif
 
+" map leader key 
+let mapleader=" "
+
 " Load init.lua
 lua require('init')
