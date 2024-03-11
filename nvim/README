@@ -1,0 +1,2 @@
+cd /.config/nvim/lua
+ln -s ~/config-files/nvim/lua/ marcel
