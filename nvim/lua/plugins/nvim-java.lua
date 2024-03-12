@@ -8,14 +8,14 @@ return {
     'MunifTanjim/nui.nvim',
     'neovim/nvim-lspconfig',
     'mfussenegger/nvim-dap',
-    {
-      'williamboman/mason.nvim',
-      opts = {
-        registries = {
-          'github:nvim-java/mason-registry',
-          'github:mason-org/mason-registry',
-        },
-      },
-    }
+ --   {
+ --     'williamboman/mason.nvim',
+ --     opts = {
+ --       registries = {
+ --         'github:nvim-java/mason-registry',
+ --         'github:mason-org/mason-registry',
+ --       },
+ --     },
+ --   }
   },
 }
