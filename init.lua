@@ -1,3 +1,4 @@
+-- Based on: https://github.com/josean-dev/dev-environment-files?tab=readme-ov-file
 require("marcel.lazy")
 require("java").setup()
 
