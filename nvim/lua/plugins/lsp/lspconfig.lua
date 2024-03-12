@@ -129,7 +129,7 @@ return {
     })
 
     -- jdtls
-    -- lspconfig["jdtls"].setup({})
+    lspconfig["jdtls"].setup({})
     -- moved to nvim-jdtls
 
     -- configure lua server (with special settings)
