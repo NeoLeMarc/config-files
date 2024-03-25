@@ -63,17 +63,17 @@ birthday
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/marcel/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/marcel/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/marcel/anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/marcel/anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
+#__conda_setup="$('/home/marcel/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+#if [ $? -eq 0 ]; then
+#    eval "$__conda_setup"
+#else
+#    if [ -f "/home/marcel/anaconda3/etc/profile.d/conda.sh" ]; then
+#        . "/home/marcel/anaconda3/etc/profile.d/conda.sh"
+#    else
+#        export PATH="/home/marcel/anaconda3/bin:$PATH"
+#    fi
+#fi
+#unset __conda_setup
 # <<< conda initialize <<<
 export VDPAU_DRIVER=va_gl
 alias kubemaster01_unseal="gpg -d ~/dokumente/secret/passwords/scripts/kubemaster01_unseal_vault.sh.gpg | bash"
