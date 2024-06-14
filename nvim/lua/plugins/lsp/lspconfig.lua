@@ -110,7 +110,7 @@ return {
             autopep8 = { enabled = false },
             yapf = { enabled = false },
             -- linter options
-            pylint = { enabled = true, executable = "pylint" },
+            pylint = { enabled = true, executable = "pylint", args = {'--ignore=C0301,C0116,C0103,C0115,C0401', '-'}},
             pyflakes = { enabled = false },
             pycodestyle = { enabled = false },
             -- type checker
