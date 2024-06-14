@@ -31,6 +31,8 @@ set spell
 set spelllang=en
 " set noswapfile - maybe
 " set backupdir=~/.cache/vim
+set modeline
+set modelines=5
 
 call plug#begin("~/.vim/plugged")
     Plug 'dracula/vim'
